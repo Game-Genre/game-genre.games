@@ -1,7 +1,8 @@
-This is the website for https://game-genre.games , a steam analysis site to show you how many games of which genre you own.
+#
 
+This is the website for <https://game-genre.games>, a steam analysis site to show you how many games of which genre you own
 
-Backend - loggers-bro
+Backend - Krista-chan
 
 Frontend - Faith Jasmine Viola
 
