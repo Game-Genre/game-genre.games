@@ -4,5 +4,7 @@
 mod routes;
 
 fn main() {
-    rocket::ignite().mount("/", routes![routes::root]).launch();
+    dotenv::dotenv().ok();
+
+    rocket::ignite().mount("/", routes![routes::root, routes::login, routes::handle_login]).launch();
 }
